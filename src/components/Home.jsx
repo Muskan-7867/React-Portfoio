@@ -3,7 +3,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const Home = () => {
   return (
-    <div name="home" className="w-full h-screen bg-black">
+    <div name="home" className="w-full h-screen bg-[#0a192f] ">
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-emerald-500">Hi, my Name is</p>
         <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">Muskan</h1>
@@ -17,9 +17,7 @@ const Home = () => {
         
         <div >
           <button
-            className="font-sans flex items-center px-6 py-3 my-2 gap-2 shadow-xl text-lg bg-gray-50 backdrop-blur-md lg:font-semibold isolation-auto
-              border-gray-50 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full
-              before:bg-emerald-500 hover:text-gray-50 before:-z-10 before:aspect-square before:hover:scale-150 before:hover:duration-700 relative z-10  overflow-hidden border-2 rounded-full group"
+            className="text-white group border-2 px-6 py-3 my-2 flex items-center  hover:border-emerald-500 hover:bg-emerald-500"
             type="submit"
           >
             View Work
