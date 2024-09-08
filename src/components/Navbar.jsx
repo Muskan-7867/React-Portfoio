@@ -9,7 +9,7 @@ const Navbar = () => {
   const handleClick = () => setMenu(!menu);
 
   return (
-    <div className="fixed flex justify-between items-center px-4 w-full bg-black text-slate-300 h-[80px]">
+    <div className="fixed flex justify-between items-center px-4 w-full bg-[#0a192f]  text-slate-300 h-[80px]">
       <div>
         <h3 className="text-xl font-bold">Portfolio</h3>
       </div>
@@ -32,7 +32,7 @@ const Navbar = () => {
       <ul
         className={`${
           !menu ? "hidden" : "flex"
-        } absolute left-0 top-0 w-full h-screen bg-black flex-col justify-center items-center`}
+        } absolute left-0 top-0 w-full h-screen bg-[#0a192f]  flex-col justify-center items-center`}
       >
         <li className="py-4 text-4xl">Home</li>
         <li className="py-4 text-4xl">About</li>
