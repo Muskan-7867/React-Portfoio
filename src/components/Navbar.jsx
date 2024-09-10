@@ -48,7 +48,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex items-center justify-between ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600 rounded-r-lg">
             <a
               className="flex justify-between items-center w-full text-gray-300 px-4"
-              href="https://www.linkedin.com"
+              href="https:linkedin.com/in/muskan-loach-70a956288"
             >
               LinkedIn <FaLinkedin size={30} />
             </a>
@@ -58,7 +58,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex items-center justify-between ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-800 rounded-r-lg">
             <a
               className="flex justify-between items-center w-full text-gray-300 px-4"
-              href="https://github.com"
+              href="https://github.com/Muskan-7867"
             >
               GitHub <FaGithub size={30} />
             </a>
@@ -68,7 +68,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex items-center justify-between ml-[-100px] hover:ml-[-10px] duration-300 bg-red-500 rounded-r-lg">
             <a
               className="flex justify-between items-center w-full text-gray-300 px-4"
-              href="mailto:example@example.com"
+              href="mailto:muskanloach984@gmail.com"
             >
               Email <Mail size={30} />
             </a>
