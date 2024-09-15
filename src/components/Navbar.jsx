@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Menu, X, Mail } from "lucide-react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { AiOutlineFileText } from "react-icons/ai";
+import { Link } from "react-scroll"; // Import Link from react-scroll
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
@@ -15,12 +16,32 @@ const Navbar = () => {
       </div>
 
       {/* Desktop menu */}
-      <ul className="hidden md:flex justify-between gap-5">
-        <li>Home</li>
-        <li>About</li>
-        <li>Skills</li>
-        <li>Work</li>
-        <li>Contact</li>
+      <ul className="hidden md:flex justify-between cursor-pointer gap-5">
+        <li>
+          <Link to="home" smooth={true} duration={500}>
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link to="about" smooth={true} duration={500}>
+            About
+          </Link>
+        </li>
+        <li>
+          <Link to="skills" smooth={true} duration={500}>
+            Skills
+          </Link>
+        </li>
+        <li>
+          <Link to="work" smooth={true} duration={500}>
+            Work
+          </Link>
+        </li>
+        <li>
+          <Link to="contact" smooth={true} duration={500}>
+            Contact
+          </Link>
+        </li>
       </ul>
 
       {/* Hamburger menu icon for mobile */}
@@ -30,15 +51,35 @@ const Navbar = () => {
 
       {/* Mobile menu */}
       <ul
-        className={`${
-          !menu ? "hidden" : "flex"
-        } absolute left-0 top-0 w-full h-screen bg-[#0a192f]  flex-col justify-center items-center`}
+        className={`absolute left-0 top-40 text-center w-full h-screen bg-[#0a192f] flex-col justify-center items-center transform transition-all duration-500 ease-in-out ${
+          menu ? "opacity-70 translate-y-0" : "opacity-0 -translate-y-full"
+        }`}
       >
-        <li className="py-4 text-4xl">Home</li>
-        <li className="py-4 text-4xl">About</li>
-        <li className="py-4 text-4xl">Skills</li>
-        <li className="py-4 text-4xl">Work</li>
-        <li className="py-4 text-4xl">Contact</li>
+        <li className="py-4 text-4xl cursor-pointer">
+          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+            Home
+          </Link>
+        </li>
+        <li className="py-4 text-4xl cursor-pointer">
+          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+            About
+          </Link>
+        </li>
+        <li className="py-4 text-4xl cursor-pointer">
+          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
+            Skills
+          </Link>
+        </li>
+        <li className="py-4 text-4xl cursor-pointer">
+          <Link onClick={handleClick} to="work" smooth={true} duration={500}>
+            Work
+          </Link>
+        </li>
+        <li className="py-4 text-4xl cursor-pointer">
+          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+            Contact
+          </Link>
+        </li>
       </ul>
 
       {/* Social icons sidebar */}
@@ -48,7 +89,9 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex items-center justify-between ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600 rounded-r-lg">
             <a
               className="flex justify-between items-center w-full text-gray-300 px-4"
-              href="https:linkedin.com/in/muskan-loach-70a956288"
+              href="https://linkedin.com/in/muskan-loach-70a956288"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               LinkedIn <FaLinkedin size={30} />
             </a>
@@ -59,6 +102,8 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300 px-4"
               href="https://github.com/Muskan-7867"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               GitHub <FaGithub size={30} />
             </a>
@@ -79,6 +124,8 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300 px-4"
               href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Resume <AiOutlineFileText size={30} />
             </a>
