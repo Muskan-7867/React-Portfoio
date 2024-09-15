@@ -10,35 +10,35 @@ const Skills = () => {
             </div>
             <div className='grid  w-full grid-cols-2 sm:grid-cols-4 gap-10 text-center py-8'>
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto' src="public/images/html.png"></img>
+                <img className='w-20 mx-auto' src="/images/html.png"></img>
                 <p className='my-4'>HTML</p>
             </div>
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto' src="public/images/css.png"></img>
+                <img className='w-20 mx-auto' src="/images/css.png"></img>
                 <p className='my-4'>CSS</p>
             </div>
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img className='w-16 mx-auto' src="public/images/js.png"></img>
+                <img className='w-16 mx-auto' src="/images/js.png"></img>
                 <p className='my-4'>JavaScript</p>
             </div>
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img className='w-16 mx-auto' src="public/images/react.svg"></img>
+                <img className='w-16 mx-auto' src="/images/react.svg"></img>
                 <p className='my-4'>React.js</p>
             </div>
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img className='w-16 mx-auto' src="public/images/ts.png"></img>
+                <img className='w-16 mx-auto' src="/images/ts.png"></img>
                 <p className='my-4'>TypeScript</p>
             </div>
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto' src="public/images/mongodb.png"></img>
+                <img className='w-20 mx-auto' src="/images/mongodb.png"></img>
                 <p className='my-4'>MongoDB</p>
             </div>
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img className='w-16 mx-auto' src="public/images/sql.png"></img>
+                <img className='w-16 mx-auto' src="/images/sql.png"></img>
                 <p className='my-4'>SQL</p>
             </div>
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto' src="public/images/tailwind.png"></img>
+                <img className='w-20 mx-auto' src="/images/tailwind.png"></img>
                 <p className='my-4'>Taiwind CSS</p>
             </div>
            
