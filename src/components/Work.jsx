@@ -49,13 +49,13 @@ const Work = () => {
   return (
     <div name="work" className="w-full min-h-screen bg-[#0a192f] text-gray-300 py-16">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-emerald-600">Work</p>
+        <div className="pb-8 animate-slideIn">
+          <p className="text-4xl font-bold inline border-b-4 border-emerald-600" >Work</p>
           <p className="py-6">Check out some of my recent work</p>
         </div>
 
         {/* Grid Container for Projects */}
-        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 animate-slideInFromRight">
           {projects.map(({ id, image, title, demoLink, codeLink }) => (
             <div
               key={id}
