@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Menu, X, Mail } from "lucide-react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { AiOutlineFileText } from "react-icons/ai";
-import { Link } from "react-scroll"; // Import Link from react-scroll
+import { Link } from "react-scroll"; 
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
@@ -51,8 +51,8 @@ const Navbar = () => {
 
       {/* Mobile menu */}
       <ul
-        className={`absolute left-0 top-40 text-center w-full h-screen bg-[#0a192f] flex-col justify-center items-center transform transition-all duration-500 ease-in-out ${
-          menu ? "opacity-70 translate-y-0" : "opacity-0 -translate-y-full"
+        className={`absolute left-0 top-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center transform transition-all duration-500 ease-in-out ${
+          menu ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-full"
         }`}
       >
         <li className="py-4 text-4xl cursor-pointer">
