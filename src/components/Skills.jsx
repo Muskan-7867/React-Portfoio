@@ -8,7 +8,7 @@ const Skills = () => {
                 <p className='text-4xl font-bold inline border-b-4 border-emerald-600 animate-slideIn'>Skills</p>
                 <p className='py-6 animate-slideInFromRight'>These are the Technologies i have worked with.</p>
             </div>
-            <div className='grid  w-full grid-cols-2 sm:grid-cols-4 animate-slideIn gap-10 text-center py-8'>
+            <div className='grid  w-full grid-cols-2 sm:grid-cols-4 gap-10 text-center py-8'>
             <div className='shadow-md shadow-[#040c16] hover:scale-110  duration-500'>
                 <img className='w-20 mx-auto' src="/images/html.png"></img>
                 <p className='my-4'>HTML</p>
