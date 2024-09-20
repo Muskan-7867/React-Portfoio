@@ -55,7 +55,7 @@ const Work = () => {
         </div>
 
         {/* Grid Container for Projects */}
-        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 animate-slideInFromRight">
+        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 ">
           {projects.map(({ id, image, title, demoLink, codeLink }) => (
             <div
               key={id}
