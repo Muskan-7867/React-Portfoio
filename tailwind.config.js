@@ -9,8 +9,8 @@ export default {
       animation: {
         fadeIn: 'fadeIn 1s ease-in-out infinite',
         typing: 'typing 3.5s steps(40, end) infinite, blink .75s step-end infinite',
-        slideIn: 'slideIn 5s ease-in-out infinite', // Updated animation for sliding in
-        slideInFromRight: 'slideInFromRight 5s ease-in-out infinite', // Existing animation
+        slideIn: 'slideIn 10s ease-in-out infinite', 
+        slideInFromRight: 'slideInFromRight 10s ease-in-out infinite', 
       },
       keyframes: {
         fadeIn: {
