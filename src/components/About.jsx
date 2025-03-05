@@ -1,4 +1,4 @@
-import React from "react";
+
 
 const About = () => {
   return (
@@ -14,11 +14,10 @@ const About = () => {
           </div>
           <div className="gap-8 grid sm:grid-cols-2 px-4 w-full max-w-[1000px]">
             <div className="sm:text-right font-bold text-4xl animate-fadeIn">
-              <p>Hi I'm Muskan, nice to meet you. Please take a look around.</p>
+              <p>Hi I am Muskan, nice to meet you. Please take a look around.</p>
             </div>
             <div>
-                <p >I am a passionate Frontend Developer specializing in building dynamic, responsive, and user-friendly websites and web applications. With a strong foundation in HTML, CSS, and JavaScript, along with experience in frameworks like React, I bring designs to life with clean, efficient code.
-                     I thrive on solving complex problems, optimizing performance, and creating seamless user experiences.</p>
+                <p > I am a Full-Stack Developer with a strong focus on frontend development and a growing expertise in backend technologies. I specialize in React, React Native, TypeScript, JavaScript, HTML, and CSS, crafting dynamic and user-friendly web applications. My experience includes state management, performance optimization, API integration, and real-time applications. On the backend, I have worked with Node.js, Express.js, MongoDB, PostgreSQL, Firebase, and MySQL, with a foundational understanding of authentication (JWT, OAuth), WebSockets, and REST APIs. While my expertise lies in frontend development, I am constantly improving my backend skills to build scalable and efficient applications.</p>
             </div>
           </div>
         
