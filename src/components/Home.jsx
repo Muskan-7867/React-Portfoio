@@ -1,4 +1,4 @@
-import React from "react";
+
 import { FaArrowRight } from "react-icons/fa";
 
 const Home = () => {
@@ -13,14 +13,11 @@ const Home = () => {
         </h1>
         
         <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0] animate-slideIn">
-          I am a Frontend Developer
+          I am a Web Developer
         </h2>
         
         <p className="text-[#8892b0] py-4 max-w-[700px] animate-slideInFromRight">
-          A Frontend Developer builds and designs user interfaces for websites
-          and web apps using HTML, CSS, JavaScript, and frameworks like React.
-          They ensure a responsive, visually appealing, and interactive user
-          experience while collaborating with designers and backend developers.
+        I am a Full-Stack Developer with a strong focus on frontend development and a growing expertise in backend technologies. I specialize in React, React Native, TypeScript, JavaScript, HTML, and CSS, crafting dynamic and user-friendly web applications. My experience includes state management, performance optimization, API integration, and real-time applications. On the backend, I have worked with Node.js, Express.js, MongoDB, PostgreSQL, Firebase, and MySQL, with a foundational understanding of authentication (JWT, OAuth), WebSockets, and REST APIs. While my expertise lies in frontend development, I am constantly improving my backend skills to build scalable and efficient applications.
         </p>
         
         <div>
