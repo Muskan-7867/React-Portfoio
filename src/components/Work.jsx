@@ -1,21 +1,23 @@
-import React from "react";
+
 
 const Work = () => {
   const projects = [
+
     {
       id: 1,
+      image: "/images/chat.webp",
+      title: "QuickTalk",
+      demoLink: "https://quicktalk-nine.vercel.app/",
+      codeLink: "https://github.com/Muskan-7867/QuickTalk",
+    },
+    {
+      id: 2,
       image: "/images/schedulrr.webp",
       title: "Schedulrr",
       demoLink: "https://schdulrr.vercel.app/",
       codeLink: "https://github.com/Muskan-7867/Schdulrr.git",
     },
-    {
-      id: 2,
-      image: "/images/todo.jpg",
-      title: "Todo App",
-      demoLink: "https://full-stack-todo-app-roan.vercel.app/",
-      codeLink: "https://github.com/Muskan-7867/Full-stack-todo-app.git",
-    },
+   
     {
       id: 3,
       image: "/images/netflix.jpg",
