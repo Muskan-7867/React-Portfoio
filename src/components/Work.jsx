@@ -5,14 +5,14 @@ const Work = () => {
 
     {
       id: 1,
-      image: "/images/chat.webp",
+      image: "/images/works/chat.webp",
       title: "QuickTalk",
       demoLink: "https://quicktalk-nine.vercel.app/",
       codeLink: "https://github.com/Muskan-7867/QuickTalk",
     },
     {
       id: 2,
-      image: "/images/schedulrr.webp",
+      image: "/images/works/schedulrr.webp",
       title: "Schedulrr",
       demoLink: "https://schdulrr.vercel.app/",
       codeLink: "https://github.com/Muskan-7867/Schdulrr.git",
@@ -20,7 +20,7 @@ const Work = () => {
    
     {
       id: 3,
-      image: "/images/netflix.jpg",
+      image: "/images/works/netflix.jpg",
       title: "Netflix Clone",
       demoLink: "https://netflix-clone-xi-ruddy.vercel.app/",
       codeLink: "https://github.com/Muskan-7867/Netflix-Clone.git",
@@ -28,21 +28,21 @@ const Work = () => {
 
     {
       id: 4,
-      image: "/images/yt.avif",
+      image: "/images/works/yt.avif",
       title: "YouTube Clone",
       demoLink: "https://my-youtube-8f5j.vercel.app/",
       codeLink: "https://github.com/Muskan-7867/MY-youtube.git",
     },
     {
       id: 5,
-      image: "/images/tictac.jpg",
+      image: "/images/works/tictac.jpg",
       title: "Tic Tac Toe",
       demoLink: "https://dragable-tic-tac-toe-game.vercel.app/",
       codeLink: "https://github.com/Muskan-7867/Dragable-tic-tac-game.git",
     },
     {
       id: 6,
-      image: "/images/weather.jpg",
+      image: "/images/works/weather.jpg",
       title: "Weather App",
       demoLink: "https://weather-app-ten-ecru-45.vercel.app/",
       codeLink: "https://github.com/Muskan-7867/Weather-app.git",
